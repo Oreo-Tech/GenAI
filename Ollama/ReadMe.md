@@ -1,19 +1,18 @@
 Detailed Blog on:
 
 
-
-To run this code:
-    S1: Download and Open Ollama
-    S2: Pull a model: "ollama pull <model name>"
-    S3: streamlit run 4_Chatbot_Using_Ollama.py
+To run this code: <br />
+ 1: Download and Open Ollama <br />
+ 2: Pull a model: "ollama pull <model name>" <br />
+ 3: streamlit run 4_Chatbot_Using_Ollama.py <br />
 
 Detailed list of Models supported by Ollama: 
 https://github.com/ollama/ollama/blob/main/README.md#model-library
 
-To list all downloaded models:
-    ollama list
-    To delete a model:
-    ollama rm <model_name>
+To list all downloaded models: <br />
+ ollama list <br />
+ To delete a model: <br />
+ ollama rm <model_name> <br />
 
-Run the Application:
-streamlit run chatapp.py
+Run the Application: <br />
+streamlit run chatapp.py <br />
