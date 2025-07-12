@@ -31,7 +31,7 @@ spec:
         lifecycle:
           postStart:
             exec:
-              command: ["/bin/sh", "-c", "for model in $PRELOAD_MODELS; do ollama run $model \"\"; done"]
+              command: ["/bin/sh", "-c", "ollama run $PRELOAD_MODELS"]
       volumes:
       - hostPath:
           path: /opt/ollama
