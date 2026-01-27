@@ -18,7 +18,7 @@ def main():
     # Create an agent client with your authentication and region details
     # Replace the auth_type with your desired authentication method
     client = AgentClient(
-        auth_type="api_key",
+        auth_type="resource_principal",
         profile="DEFAULT",
         region="us-chicago-1",
     )
